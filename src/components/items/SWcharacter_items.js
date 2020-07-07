@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const SWcharacter_items = ({
-  character: { name, gender, hair_color, eye_color },
+  character: { name, gender, hair_color, eye_color, login },
 }) => {
   return (
     <div className='card text-center'>
@@ -11,6 +11,7 @@ const SWcharacter_items = ({
       <h5>Gender: {gender}</h5>
       <h5>Hair Color: {hair_color}</h5>
       <h5>Eye Color: {eye_color}</h5>
+      <h6>login: {login}</h6>
       <div>
         <a href='#' className='btn btn-dark-sm my-1'>
           Learn More

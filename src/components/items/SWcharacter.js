@@ -1,17 +1,20 @@
-import React, { Component } from 'react';
+import React from 'react';
 import SWcharacter_items from './SWcharacter_items';
+import Spinner from '../layout/Spinner';
 
-class SWcharacter extends Component {
-  render() {
+const SWcharacter = ({ characters, loading }) => {
+  if (loading) {
+    return <Spinner />;
+  } else {
     return (
       <div style={characterStyle}>
-        {this.props.characters.map(character => (
+        {characters.map(character => (
           <SWcharacter_items key={character.name} character={character} />
         ))}
       </div>
     );
   }
-}
+};
 
 const characterStyle = {
   display: 'grid',
