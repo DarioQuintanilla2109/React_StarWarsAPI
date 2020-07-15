@@ -23,8 +23,41 @@ body {
   color: #333;
 }
 
+.btn-group {
+  background-color: rgb(59, 114, 231);
+}
+
+.btn.btn-dark-sm.my-1 {
+  background-color: white;
+  color: rgb(59, 114, 231);
+  border: 1px solid rgb(59, 114, 231);
+}
+.btn.btn-dark-sm.my-1:hover {
+  background-color: rgb(59, 114, 231);
+  color: white;
+}
+
+.btn.btn-dark-sm.my-2 {
+  background-color: white;
+  color: yellow;
+  border: 1px solid yellow;
+}
+
+.btn.btn-dark-sm.my-2:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.caret {
+  background-color: gray;
+}
+
+.caret {
+  margin-left: 5px;
+}
+
 a {
-  color: var(--primary-color);
+  color: blue;
   text-decoration: none;
 }
 

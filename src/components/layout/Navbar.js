@@ -7,6 +7,12 @@ const Navbar = ({ icon, title }) => {
       <h1>
         <i className={icon} /> {title}
       </h1>
+      <div className='btn-group'>
+        <a class='btn dropdown-toggle' data-toggle='dropdown' href='#'>
+          Favorites
+          <span className='caret'>0</span>
+        </a>
+      </div>
     </nav>
   );
 };

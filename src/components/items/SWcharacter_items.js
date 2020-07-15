@@ -14,9 +14,9 @@ const SWcharacter_items = ({
       <h6>login: {login}</h6>
       <div>
         <a href='#' className='btn btn-dark-sm my-1'>
-          Learn More
+          Learn More!
         </a>
-        <a href='#' className='btn btn-dark-sm my-1 '>
+        <a href='#' className='btn btn-dark-sm my-2 '>
           <i className='far fa-heart'></i>
         </a>
       </div>
